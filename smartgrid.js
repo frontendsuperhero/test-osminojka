@@ -7,8 +7,16 @@ module.exports = {
     fields: "15px",
   },
   breakPoints: {
+    laptopBig: {
+      width: "1680px",
+      fields: "15px",
+    },
     laptopMid: {
-      width: "1550px",
+      width: "1580px",
+      fields: "15px",
+    },
+    laptopM: {
+      width: "1445px",
       fields: "15px",
     },
     laptopMd: {
@@ -27,12 +35,8 @@ module.exports = {
       width: "920px",
       fields: "15px",
     },
-    md: {
-      width: "920px",
-      fields: "15px",
-    },
     sm: {
-      width: "720px",
+      width: "768px",
     },
     xs: {
       width: "576px",

@@ -5,18 +5,48 @@
     justify-content: space-between;
   }
 
+  .xs-block({
+    padding-top: 20px;
+  });
+
   .first-stage,
   .second-stage {
     width: 1391px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+
+    .laptopM-block({
+      width: 1100px;
+    });
+
+    .ipad-block({
+      width: 800px;
+    });
+
+    .md-block({
+      width: 610px;
+    });
+
+    .xs-block({
+      flex-direction: column;
+      margin: 0;
+    });
   }
 
   .dop-info-block {
     max-width: 491px;
     display: flex;
     align-items: baseline;
+
+    .ipad-block({
+      width: 300px;
+    });
+
+    .xs-block({
+      align-items: baseline;
+      margin-bottom: 40px;
+    });
 
     .page__img {
       width: 15px;

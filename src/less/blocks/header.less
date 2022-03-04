@@ -9,8 +9,38 @@
   .mid {
     display: flex;
 
+    .xs-block({
+      display: none;
+    });
+
     .page__text_w-600 {
       margin: 0 20px;
+
+      .laptopMini-block({
+        margin: 0 10px;
+      });
+
+      .ipad-block({
+        font-size: 15px;
+      });
     }
+  }
+
+  .right {
+    .sm-block({
+      display: none;
+    });
+  }
+
+  .logo {
+    .ipad-block({
+      width: 250px;
+    });
+    .md-block({
+      width: 150px;
+    });
+    .sm-block({
+      width: 130px;
+    });
   }
 }
